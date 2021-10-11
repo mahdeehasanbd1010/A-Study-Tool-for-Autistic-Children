@@ -1,0 +1,37 @@
+.tile{
+    position: relative;
+    border: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    float: left;
+}
+
+.clicked{
+    border-color: rgba(21, 183, 254, 1);
+}
+
+.unclicked{
+    border-color: lightgray;
+}
+
+.selected{
+    background-image: url('../signOfClick.png');
+    background-size: cover;
+
+}
+
+.unselected{
+    background: lightGray;
+}
+
+.tile:hover{
+    border: 3px solid rgba(30, 139, 195, 1);
+}
+
+.check-box{
+    position: absolute;
+    z-index: 1;
+    top: 2px;
+    right: 2px;
+    border-radius: 2px;
+}
